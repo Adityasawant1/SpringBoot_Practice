@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
 @RestController
-@RequestMapping("/Employees")
+@RequestMapping("/employees")
 public class EmployeeController {
 
 //    @GetMapping(path ="/")

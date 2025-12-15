@@ -1,0 +1,31 @@
+2025-12-15T11:07:33.150+05:30  INFO 17046 --- [ProductionReady] [main] .s.p.p.P.ProductionReadyApplicationTests : Starting ProductionReadyApplicationTests using Java 24.0.1 with PID 17046 (started by aditya in /home/aditya/Programming/SpringBootPractice/Concepts/ProductionReady)
+2025-12-15T11:07:33.153+05:30  INFO 17046 --- [ProductionReady] [main] .s.p.p.P.ProductionReadyApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-12-15T11:07:34.025+05:30  INFO 17046 --- [ProductionReady] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-15T11:07:34.101+05:30  INFO 17046 --- [ProductionReady] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+2025-12-15T11:07:34.749+05:30  INFO 17046 --- [ProductionReady] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-15T11:07:34.807+05:30  INFO 17046 --- [ProductionReady] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-15T11:07:35.287+05:30  INFO 17046 --- [ProductionReady] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-15T11:07:35.318+05:30  INFO 17046 --- [ProductionReady] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-15T11:07:35.481+05:30  INFO 17046 --- [ProductionReady] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@788d9139
+2025-12-15T11:07:35.483+05:30  INFO 17046 --- [ProductionReady] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-15T11:07:35.581+05:30  INFO 17046 --- [ProductionReady] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/SocialMedia?useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: SocialMedia/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-15T11:07:36.884+05:30  INFO 17046 --- [ProductionReady] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-15T11:07:37.002+05:30  INFO 17046 --- [ProductionReady] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15T11:07:37.393+05:30  INFO 17046 --- [ProductionReady] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-15T11:07:37.641+05:30  WARN 17046 --- [ProductionReady] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-15T11:07:37.993+05:30  WARN 17046 --- [ProductionReady] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-12-15T11:07:38.267+05:30  INFO 17046 --- [ProductionReady] [main] .s.p.p.P.ProductionReadyApplicationTests : Started ProductionReadyApplicationTests in 5.463 seconds (process running for 7.159)
+2025-12-15T11:07:38.972+05:30  INFO 17046 --- [ProductionReady] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-15T11:07:38.977+05:30  INFO 17046 --- [ProductionReady] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-15T11:07:38.986+05:30  INFO 17046 --- [ProductionReady] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
