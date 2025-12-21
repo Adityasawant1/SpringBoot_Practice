@@ -24,6 +24,7 @@ public class UserEntity implements UserDetails {
     @Column(unique = true)
     String email;
     String password;
+    String name;
 
 
     @Override
