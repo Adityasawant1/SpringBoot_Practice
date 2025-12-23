@@ -24,7 +24,7 @@ public class JwtService {
 
 
 
-    public String generateToken(UserEntity user)
+    public String generateAccessToken(UserEntity user)
     {
         return Jwts.builder()
                 .subject(user.getId().toString())
@@ -32,6 +32,16 @@ public class JwtService {
                 .claim("roles", Set.of("ADMIN","USER"))
                 .issuedAt(new Date())
                 .expiration(new Date(System.currentTimeMillis()+1000*60))
+                .signWith(getSecreatKey())
+                .compact();
+    }
+
+    public String generateRefreshToken(UserEntity user)
+    {
+        return Jwts.builder()
+                .subject(user.getId().toString())
+                .issuedAt(new Date())
+                .expiration(new Date(System.currentTimeMillis()+1000L*60*60*24*30*6))
                 .signWith(getSecreatKey())
                 .compact();
     }
