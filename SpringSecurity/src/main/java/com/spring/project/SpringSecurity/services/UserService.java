@@ -3,6 +3,7 @@ package com.spring.project.SpringSecurity.services;
 import com.spring.project.SpringSecurity.dto.SignUpDTO;
 import com.spring.project.SpringSecurity.dto.UserDTO;
 import com.spring.project.SpringSecurity.entities.UserEntity;
+import com.spring.project.SpringSecurity.entities.enums.Role;
 import com.spring.project.SpringSecurity.exception.ResourceNotfoundException;
 import com.spring.project.SpringSecurity.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -15,6 +16,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
+import java.util.Set;
 
 @Service
 @RequiredArgsConstructor
@@ -43,6 +45,11 @@ public class UserService implements UserDetailsService {
 
         user.setPassword(passwordEncoder.encode(user.getPassword()));
 
+        if (signUpDTO.getRoles() == null || signUpDTO.getRoles().isEmpty()) {
+            user.setRoles(Set.of(Role.USER));
+        } else {
+            user.setRoles(signUpDTO.getRoles());
+        }
         return modelMapper.map(userRepository.save(user),UserDTO.class);
 
     }

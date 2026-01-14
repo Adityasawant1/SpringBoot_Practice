@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae738d37-7e30-4c45-a5c0-901423bc93c0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/htmlReport" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2kTKQVTydat0pRYWSCFaA429Y8x" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TestingAppApplication.executor": "Run",
+    "JUnit.EmployeeControllerTestIT.executor": "Run",
+    "JUnit.EmployeeControllerTestIT.testCreateNewEmployee_whenEmployeeAlreadyExists_thenThrowException.executor": "Run",
+    "JUnit.EmployeeControllerTestIT.testCreateNewEmployee_whenEmployeeDoesNotExists_thenCreateEmployee.executor": "Run",
+    "JUnit.EmployeeControllerTestIT.testDeleteEmployee_whenEmployeeDoesNotExists_thenThrowException.executor": "Run",
+    "JUnit.EmployeeControllerTestIT.testDeleteEmployee_whenEmployeeExists_thenDeleteEmployee.executor": "Run",
+    "JUnit.EmployeeControllerTestIT.testGetEmployeeById_Failure.executor": "Run",
+    "JUnit.EmployeeControllerTestIT.testUpdateEmployee_whenAttemptingToUpdateTheEmail_thenThrowException.executor": "Run",
+    "JUnit.EmployeeControllerTestIT.testUpdateEmployee_whenEmployeeDoesNotExists_thenThrowException.executor": "Run",
+    "JUnit.EmployeeControllerTestIT.testUpdateEmployee_whenEmployeeIsValid_thenUpdateEmployee.executor": "Run",
+    "JUnit.EmployeeRepositoryTest.executor": "Run",
+    "JUnit.EmployeeServiceImplTest.executor": "Coverage",
+    "JUnit.EmployeeServiceImplTest.testCreateNewEmployee_whenAttemptingToCreateEmployeeWithExistingEmail_thenThrowException.executor": "Run",
+    "JUnit.EmployeeServiceImplTest.testDeleteEmployee_whenEmployeeDoesNotExists_thenThrowException.executor": "Run",
+    "JUnit.EmployeeServiceImplTest.testDeleteEmployee_whenEmployeeIsValid_thenDeleteEmployee.executor": "Run",
+    "JUnit.EmployeeServiceImplTest.testGetEmployeeById_whenEmployeeIsNotPresent_thenThrowException.executor": "Run",
+    "JUnit.EmployeeServiceImplTest.testUpdateEmployee_whenValidEmployee_thenUpdateEmployee.executor": "Run",
+    "JUnit.TestingApp in TestingApp.executor": "Coverage",
+    "JUnit.TestingAppApplicationTests.contextLoads.executor": "Run",
+    "JUnit.TestingAppApplicationTests.executor": "Run",
+    "JUnit.TestingAppApplicationTests.testDivideTwoNumbers_whenDenominatorIsZero_ThenArithmeticException.executor": "Run",
+    "JUnit.TestingAppApplicationTests.testNumberOne.executor": "Run",
+    "JUnit.TestingAppApplicationTests.testNumberTwo.executor": "Run",
+    "JUnit.com.codingshuttle.TestingApp in TestingApp.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.TestingAppApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/anuj/Downloads/TestingApp/src/main/java/com/codingshuttle/TestingApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/codingshuttle/TestingApp" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.codingshuttle.TestingApp.controllers" />
+      <recent name="com.codingshuttle.TestingApp.services.impl" />
+      <recent name="com.codingshuttle.TestingApp.repositories" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EmployeeControllerTestIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingshuttle.TestingApp.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codingshuttle.TestingApp.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.codingshuttle.TestingApp.controllers.EmployeeControllerTestIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeControllerTestIT.testDeleteEmployee_whenEmployeeDoesNotExists_thenThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingshuttle.TestingApp.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codingshuttle.TestingApp.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.codingshuttle.TestingApp.controllers.EmployeeControllerTestIT" />
+      <option name="METHOD_NAME" value="testDeleteEmployee_whenEmployeeDoesNotExists_thenThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeControllerTestIT.testDeleteEmployee_whenEmployeeExists_thenDeleteEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingshuttle.TestingApp.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codingshuttle.TestingApp.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.codingshuttle.TestingApp.controllers.EmployeeControllerTestIT" />
+      <option name="METHOD_NAME" value="testDeleteEmployee_whenEmployeeExists_thenDeleteEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingApp in TestingApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingApp" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/codingshuttle/TestingApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.codingshuttle.TestingApp in TestingApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingshuttle.TestingApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codingshuttle.TestingApp" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="TestingApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingshuttle.TestingApp.TestingAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestingApp in TestingApp" />
+        <item itemvalue="JUnit.com.codingshuttle.TestingApp in TestingApp" />
+        <item itemvalue="JUnit.EmployeeControllerTestIT" />
+        <item itemvalue="JUnit.EmployeeControllerTestIT.testDeleteEmployee_whenEmployeeExists_thenDeleteEmployee" />
+        <item itemvalue="JUnit.EmployeeControllerTestIT.testDeleteEmployee_whenEmployeeDoesNotExists_thenThrowException" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae738d37-7e30-4c45-a5c0-901423bc93c0" name="Changes" comment="" />
+      <created>1723302111119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723302111119</updated>
+      <workItem from="1766816519354" duration="406000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Part 2 - Unit Testing the Persistence Layer" />
+    <MESSAGE value="Part 2 - Unit Testing the Persistence Layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 2 - Unit Testing the Persistence Layer" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TestingApp$EmployeeControllerTestIT.ic" NAME="EmployeeControllerTestIT Coverage Results" MODIFIED="1723747393670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.codingshuttle.TestingApp.controllers.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestingApp$EmployeeServiceImplTest.ic" NAME="EmployeeServiceImplTest Coverage Results" MODIFIED="1723743143533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.codingshuttle.TestingApp.services.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestingApp$TestingApp_in_TestingApp.ic" NAME="TestingApp in TestingApp Coverage Results" MODIFIED="1723748643971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/TestingApp$EmployeeRepositoryTest.ic" NAME="EmployeeRepositoryTest Coverage Results" MODIFIED="1723315305728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.codingshuttle.TestingApp.repositories.*</FILTER>
+    </SUITE>
+  </component>
+</project>
