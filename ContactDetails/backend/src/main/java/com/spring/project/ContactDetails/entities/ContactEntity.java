@@ -29,5 +29,8 @@ public class ContactEntity {
     String status;
     String photoUrl;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
+    UserEntity user;
 
 }
